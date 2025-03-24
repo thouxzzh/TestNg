@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="Login and Dashboard Tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
-     <class name="com.testng.NewTest"/>
-      <class name="com.testng.Annotations"/>
-      <class name="com.testng.AssertDemo"/>
-      <class name="com.testng.AssertDemo2"/>
-      <class name="com.testng.QafoxAssertions"/>
+    <class name="com.tests.LoginTest"/>
+    <class name="com.tests.DashboardTest"/>
+          
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

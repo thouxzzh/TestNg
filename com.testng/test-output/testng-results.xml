@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-21T10:24:19 IST" name="Default suite" finished-at="2025-03-21T10:24:25 IST" duration-ms="5789">
+  <suite started-at="2025-03-24T15:32:56 IST" name="Suite" finished-at="2025-03-24T15:33:17 IST" duration-ms="21167">
     <groups>
     </groups>
-    <test started-at="2025-03-21T10:24:19 IST" name="Default test" finished-at="2025-03-21T10:24:25 IST" duration-ms="5789">
-      <class name="com.testng.AssertDemo">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.AssertDemo@1165b38]" started-at="2025-03-21T10:24:19 IST" name="beforeTest" finished-at="2025-03-21T10:24:25 IST" duration-ms="5616" status="PASS">
+    <test started-at="2025-03-24T15:32:56 IST" name="Login and Dashboard Tests" finished-at="2025-03-24T15:33:17 IST" duration-ms="21167">
+      <class name="com.tests.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.DashboardTest@10683d9d]" started-at="2025-03-24T15:33:09 IST" name="setup" finished-at="2025-03-24T15:33:14 IST" duration-ms="4464" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.testng.AssertDemo@1165b38]" started-at="2025-03-21T10:24:25 IST" name="verifyTitle" finished-at="2025-03-21T10:24:25 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardTitle()[pri:0, instance:com.tests.DashboardTest@10683d9d]" started-at="2025-03-24T15:33:14 IST" name="verifyDashboardTitle" finished-at="2025-03-24T15:33:17 IST" duration-ms="2817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testng.AssertDemo@1165b38]" started-at="2025-03-21T10:24:25 IST" name="afterTest" finished-at="2025-03-21T10:24:25 IST" duration-ms="137" status="PASS">
+        </test-method> <!-- verifyDashboardTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.DashboardTest@10683d9d]" started-at="2025-03-24T15:33:17 IST" name="teardown" finished-at="2025-03-24T15:33:17 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.testng.AssertDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.DashboardTest -->
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@44c03695]" started-at="2025-03-24T15:32:56 IST" name="setup" finished-at="2025-03-24T15:33:09 IST" duration-ms="12832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:com.tests.LoginTest@44c03695]" started-at="2025-03-24T15:33:09 IST" name="testLogin" finished-at="2025-03-24T15:33:09 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.LoginTest@44c03695]" started-at="2025-03-24T15:33:09 IST" name="teardown" finished-at="2025-03-24T15:33:09 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- Login and Dashboard Tests -->
+  </suite> <!-- Suite -->
 </testng-results>
