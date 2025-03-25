@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Chrome Test(failed)">
+  <test thread-count="5" name="Login and Dashboard Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.tests.LoginTest">
+      <class name="com.tests.DashboardTest">
         <methods>
           <include name="teardown"/>
-          <include name="testLogin"/>
+          <include name="verifyDashboardTitle"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.tests.LoginTest -->
+      </class> <!-- com.tests.DashboardTest -->
     </classes>
-  </test> <!-- Chrome Test(failed) -->
+  </test> <!-- Login and Dashboard Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->
